@@ -1,0 +1,22 @@
+.hero__box {
+  max-width: 500px;
+  justify-self: center;
+  overflow: hidden;
+  border: 10px solid #fff;
+
+  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+
+  animation: ava-animate 5s infinite alternate;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.hero__box-img {
+  animation: ava-bg 3s infinite alternate;
+}
+
+@media screen and (max-width: 978px) {
+  .hero__box {
+    max-width: 350px;
+    justify-self: center;
+  }
+}

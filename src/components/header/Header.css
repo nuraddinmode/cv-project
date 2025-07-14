@@ -1,0 +1,25 @@
+.header {
+  width: 100%;
+  padding: 15px 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 24px;
+  font-weight: 300;
+  color: gray;
+}
+
+#btn-en,
+#btn-ru {
+  border-radius: 6px;
+  font-size: 12px;
+  padding: 6px 12px;
+  font-family: "Montserrat", sans-serif;
+  background: -webkit-linear-gradient(#33ff96, #33d1ff);
+}
+
+#language-switcher button:active {
+  padding: 8px 14px;
+}
