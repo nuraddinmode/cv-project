@@ -1,25 +1,27 @@
 .header {
-  width: 100%;
-  padding: 15px 0;
-
+  max-width: 1230px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+  gap: 100px;
 
   font-size: 24px;
   font-weight: 300;
   color: gray;
 }
 
-#btn-en,
-#btn-ru {
-  border-radius: 6px;
-  font-size: 12px;
-  padding: 6px 12px;
-  font-family: "Montserrat", sans-serif;
-  background: -webkit-linear-gradient(#33ff96, #33d1ff);
+.header__nav {
+  display: flex;
+  gap: 30px;
 }
 
-#language-switcher button:active {
-  padding: 8px 14px;
+.header__paragraph {
+  text-decoration: none;
+  color: gray;
+  cursor: pointer;
+
+  transition: color 0.3s;
+}
+
+.header__paragraph:hover {
+  color: green;
 }
